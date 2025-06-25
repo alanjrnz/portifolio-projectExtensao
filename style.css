@@ -161,6 +161,29 @@ h3 {
   margin: 0 auto;
 }
 
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+a button{
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  background: var(--secondary-color);
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}a button:hover {
+  background: var(--primary-color);
+}
+
+.casoUso{
+  width: 50%;
+  object-fit: cover;
+}
+
 footer {
   background-color: var(--primary-color);
   color: white;
